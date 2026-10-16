@@ -28,7 +28,7 @@ Open: <http://localhost:9177>
 > Default port is `9177`; change it in `main.go` or `docker-compose.yml`.
 
 ### Option B: Windows executable
-Download the prebuilt Windows program `midipiano.exe` and double-click to run.
+Download the prebuilt Windows program `midipiano-vx.x.x-windows-x64.exe` and double-click to run.
 ```text
 1. Download midipiano.exe to your local PC
 2. Double-click midipiano.exe (a console window shows the listen address)
@@ -88,7 +88,7 @@ Drop the **English UI** screenshots into the `docs/en/` folder (Chinese UI scree
 ## 🛠️ Deployment
 This project is distributed in two ways — no need to build from source:
 - **Docker image**: `roco65v/midipiano:latest` (published; pull and run, see Option A above).
-- **Windows executable**: `midipiano.exe` (published; double-click to run, see Option B above).
+- **Windows executable**: `midipiano-vx.x.x-windows-x64.exe` (published; double-click to run, see Option B above).
 - **Reverse proxy (HTTPS)**: put nginx / caddy in front with TLS so LAN devices can use MIDI.
 
 ## ❓ FAQ
