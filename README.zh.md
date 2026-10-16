@@ -27,7 +27,7 @@ docker run -d -p 9177:9177 --name midipiano roco65v/midipiano:latest
 > 端口默认 `9177`，可在 `main.go` 或 `docker-compose.yml` 中修改。
 
 ### 方式二：Windows 可执行文件
-直接下载已打包的 Windows 程序 `midipiano.exe`，双击即可运行。
+直接下载已打包的 Windows 程序 `midipiano-vx.x.x-windows-x64.exe`，双击即可运行。
 ```text
 1. 将 midipiano.exe 下载到本地
 2. 双击 midipiano.exe（会弹出命令行窗口并显示监听地址）
@@ -86,7 +86,7 @@ docker run -d -p 9177:9177 --name midipiano roco65v/midipiano:latest
 ## 🛠️ 部署说明
 本项目以两种方式发布，无需从源码构建：
 - **Docker 镜像**：`roco65v/midipiano:latest`（已发布，直接拉取运行，见上方“方式一”）。
-- **Windows 可执行文件**：`midipiano.exe`（已发布，双击运行，见上方“方式二”）。
+- **Windows 可执行文件**：`midipiano-vx.x.x-windows-x64.exe`（已发布，双击运行，见上方“方式二”）。
 - **反向代理（HTTPS）**：在 nginx / caddy 等前置 TLS，即可让局域网设备使用 MIDI。
 
 ## ❓ 常见问题
