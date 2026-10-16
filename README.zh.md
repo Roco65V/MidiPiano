@@ -96,4 +96,4 @@ docker run -d -p 9177:9177 --name midipiano roco65v/midipiano:latest
 - **播放 MIDI 很久没声音？** 多通道音色在后台加载，加载完成前不会出声，请留意进度条。
 
 ---
-[🇬🇧 English README](README.en.md)
+[🇺🇸 English README](README.en.md)
