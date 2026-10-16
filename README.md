@@ -11,6 +11,6 @@ MIDIPiano is a pure browser-based web piano / MIDI player with keyboard, on-scre
 请选择语言 / Choose your language:
 
 - 🇨🇳 **中文**：[README.zh.md](README.zh.md)
-- 🇬🇧 **English**：[README.en.md](README.en.md)
+- 🇺🇸 **English**：[README.en.md](README.en.md)
 
 ![主界面](docs/zh/screenshot-main.png)
