@@ -2,7 +2,7 @@
 
 MIDIPiano is a **pure browser-based** web piano / MIDI player. No plugins required — just open the page to:
 play with your computer keyboard or on-screen keys, switch between 128 GM instruments, upload and play MIDI files,
-and connect a real MIDI keyboard. A GitHub icon sits in the footer and links to the project repository.
+and connect a real MIDI keyboard.
 
 ## ✨ Features
 - 🎹 **Three ways to play**: computer keyboard, on-screen virtual keys, or an external MIDI device.
