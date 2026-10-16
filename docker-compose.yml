@@ -1,0 +1,7 @@
+services:
+  midipiano:
+    container_name: midipiano      
+    image: roco65v/midipiano:latest   
+    ports: [9177:9177] 
+    restart: always
+  
